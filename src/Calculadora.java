@@ -1,22 +1,54 @@
+/**
+ * A classe Calculadora fornece métodos para realizar operações matemáticas simples, como soma, subtração, multiplicação e divisão.
+ */
 public class Calculadora {
-  // Classe basica de soma, soma a + b e retorna a resposta
+
+  /**
+   * Realiza a operação de soma entre dois números inteiros.
+   *
+   * @param a O primeiro número inteiro.
+   * @param b O segundo número inteiro.
+   * @return O resultado da soma de a e b.
+   */
   public int soma(int a, int b){
-    return a+b;
+    return a + b;
   }
-  // Classe basica de subtracao, subtrai a - b e retorna a resposta
+
+  /**
+   * Realiza a operação de subtração entre dois números inteiros.
+   *
+   * @param a O número do qual será subtraído.
+   * @param b O número a ser subtraído de a.
+   * @return O resultado da subtração de a por b.
+   */
   public int subtracao(int a, int b){
-    return a-b;
+    return a - b;
   }
-  // Classe basica de multiplicacao, multiplica a * b e retorna a resposta
+
+  /**
+   * Realiza a operação de multiplicação entre dois números inteiros.
+   *
+   * @param a O primeiro número inteiro.
+   * @param b O segundo número inteiro.
+   * @return O resultado da multiplicação de a por b.
+   */
   public int multiplicacao(int a, int b){
-    return a*b;
+    return a * b;
   }
-  // Classe basica de divisao, divide a / b e retorna a resposta, se o b for igual a 0 ele responde que lanca um erro falando que nao eh possivel fazer a conta
+
+  /**
+   * Realiza a operação de divisão entre dois números de ponto flutuante.
+   *
+   * @param a O numerador (dividendo).
+   * @param b O denominador (divisor).
+   * @return O resultado da divisão de a por b, representado como uma String.
+   * @throws ArithmeticException Se b for igual a zero, uma exceção é lançada, indicando que a divisão por zero não é permitida.
+   */
   public String divisao(double a, double b){
     if (b == 0){
       throw new ArithmeticException("Divisão por zero não é permitida.");
     }else{
-      String resposta = String.valueOf(a/b);
+      String resposta = String.valueOf(a / b);
       return resposta;
     }
   }
