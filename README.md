@@ -10,4 +10,9 @@ Os Testes Automatizados com JUnit estao sendo usados para testar as funcoes cria
 
 ![image](https://github.com/matheuspoveda/CalculadorOhata/assets/116612940/3855123b-9c74-4b38-a546-639979db16ff)
 
+JAVADOC:
+Para ver o Javadoc abrir o arquivo package-summary.html dentro da pasta JAVADOC CALC TEST.
+
+![image](https://github.com/matheuspoveda/CalculadorOhata/assets/116612940/4994017d-fb24-4247-9a74-9ab9d8949d3c)
+
 ## Ultima Atualizacao 21/09/2023
