@@ -1,3 +1,6 @@
+/**
+ * Classe da calculadora.
+ */
 public class Calculadora {
   /**
    * Realiza a operação de soma.

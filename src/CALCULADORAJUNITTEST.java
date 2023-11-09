@@ -2,6 +2,9 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
+/**
+ * Classe de testes da calculadora.
+ */
 public class CALCULADORAJUNITTEST {
 
     /**
